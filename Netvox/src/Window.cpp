@@ -33,7 +33,7 @@ Window::Window(unsigned int height, unsigned int width) : m_height(height), m_wi
 
 void Window::Run()
 {
-    std::cout << "Beginning to process input." << std::endl;
+    //std::cout << "Beginning to process input." << std::endl;
     processInput(this->m_window);
     //glfwSwapBuffers(this->m_window);
     glfwPollEvents();

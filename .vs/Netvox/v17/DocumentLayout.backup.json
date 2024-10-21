@@ -1,58 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dev\\Netvox\\Netvox\\",
+  "WorkspaceRootPath": "C:\\dev\\Netvox\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\new_VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\new_VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\new_VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\new_VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\res\\shaders\\fragmentShader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\res\\shaders\\fragmentShader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\res\\shaders\\vertexShader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\res\\shaders\\vertexShader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Buffers\\VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Buffers\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Buffers\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\EBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Buffers\\EBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Buffers\\VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\Buffers\\VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|C:\\dev\\Netvox\\Netvox\\src\\Renderer\\EBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A021041-65D6-4AFE-8076-6C6FFF4D885E}|Netvox\\Netvox.vcxproj|solutionrelative:Netvox\\src\\Renderer\\EBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,172 +54,153 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Window.cpp",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Window.cpp",
-              "RelativeDocumentMoniker": "Netvox\\src\\Window.cpp",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Window.cpp",
-              "RelativeToolTip": "Netvox\\src\\Window.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-20T22:42:55.271Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Shader.h",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Shader.h",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Shader.h",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Shader.h",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Shader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-21T03:29:13.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Shader.cpp",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Shader.cpp",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Shader.cpp",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Shader.cpp",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Shader.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-21T03:29:12.267Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "vertexShader.vert",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\res\\shaders\\vertexShader.vert",
-              "RelativeDocumentMoniker": "Netvox\\res\\shaders\\vertexShader.vert",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\res\\shaders\\vertexShader.vert",
-              "RelativeToolTip": "Netvox\\res\\shaders\\vertexShader.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-21T02:30:00.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EBO.cpp",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\EBO.cpp",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Buffers\\EBO.cpp",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\EBO.cpp",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Buffers\\EBO.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "new_VBO.cpp",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\new_VBO.cpp",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\new_VBO.cpp",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\new_VBO.cpp",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\new_VBO.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-21T02:20:44.06Z"
+              "WhenOpened": "2024-10-21T21:29:19.301Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VAO.cpp",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VAO.cpp",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Buffers\\VAO.cpp",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VAO.cpp",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Buffers\\VAO.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-21T02:06:32.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EBO.h",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\EBO.h",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Buffers\\EBO.h",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\EBO.h",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Buffers\\EBO.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "new_VBO.h",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\new_VBO.h",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\new_VBO.h",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\new_VBO.h",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\new_VBO.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-20T23:56:34.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "VAO.h",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VAO.h",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Buffers\\VAO.h",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VAO.h",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Buffers\\VAO.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-20T23:56:24.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VBO.cpp",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VBO.cpp",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Buffers\\VBO.cpp",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VBO.cpp",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Buffers\\VBO.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-20T23:51:31.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VBO.h",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VBO.h",
-              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\Buffers\\VBO.h",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Renderer\\Buffers\\VBO.h",
-              "RelativeToolTip": "Netvox\\src\\Renderer\\Buffers\\VBO.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-20T23:43:56.953Z"
+              "WhenOpened": "2024-10-21T21:27:39.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\main.cpp",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\main.cpp",
               "RelativeDocumentMoniker": "Netvox\\main.cpp",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\main.cpp*",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\main.cpp*",
               "RelativeToolTip": "Netvox\\main.cpp*",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAUwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwE4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-20T22:41:48.63Z",
+              "WhenOpened": "2024-10-21T20:41:59.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VBO.cpp",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VBO.cpp",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\VBO.cpp",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VBO.cpp",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\VBO.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-20T23:51:31.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VBO.h",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VBO.h",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\VBO.h",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VBO.h",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\VBO.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-20T23:43:56.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VAO.h",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VAO.h",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\VAO.h",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VAO.h",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\VAO.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-20T23:56:24.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Window.cpp",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Window.cpp",
+              "RelativeDocumentMoniker": "Netvox\\src\\Window.cpp",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Window.cpp",
+              "RelativeToolTip": "Netvox\\src\\Window.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T20:53:51.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "fragmentShader.frag",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\res\\shaders\\fragmentShader.frag",
-              "RelativeDocumentMoniker": "Netvox\\res\\shaders\\fragmentShader.frag",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\res\\shaders\\fragmentShader.frag",
-              "RelativeToolTip": "Netvox\\res\\shaders\\fragmentShader.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-21T02:30:54.695Z"
+              "Title": "VAO.cpp",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VAO.cpp",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\VAO.cpp",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\VAO.cpp",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\VAO.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T02:06:32.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Window.h",
-              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Window.h",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Window.h",
               "RelativeDocumentMoniker": "Netvox\\src\\Window.h",
-              "ToolTip": "C:\\dev\\Netvox\\Netvox\\Netvox\\src\\Window.h",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Window.h",
               "RelativeToolTip": "Netvox\\src\\Window.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADgvwQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-20T22:41:43.025Z",
+              "WhenOpened": "2024-10-21T20:59:22.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EBO.cpp",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\EBO.cpp",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\EBO.cpp",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\EBO.cpp",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\EBO.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T02:20:44.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EBO.h",
+              "DocumentMoniker": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\EBO.h",
+              "RelativeDocumentMoniker": "Netvox\\src\\Renderer\\EBO.h",
+              "ToolTip": "C:\\dev\\Netvox\\Netvox\\src\\Renderer\\EBO.h",
+              "RelativeToolTip": "Netvox\\src\\Renderer\\EBO.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-20T23:56:34.511Z",
               "EditorCaption": ""
             }
           ]

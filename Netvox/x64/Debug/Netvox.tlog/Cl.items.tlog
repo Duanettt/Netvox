@@ -1,6 +1,7 @@
-C:\dev\Netvox\Netvox\Netvox\src\Renderer\Buffers\EBO.cpp;C:\dev\Netvox\Netvox\Netvox\x64\Debug\EBO.obj
-C:\dev\Netvox\Netvox\Netvox\main.cpp;C:\dev\Netvox\Netvox\Netvox\x64\Debug\main.obj
-C:\dev\Netvox\Netvox\Netvox\src\Renderer\Shader.cpp;C:\dev\Netvox\Netvox\Netvox\x64\Debug\Shader.obj
-C:\dev\Netvox\Netvox\Netvox\src\Window.cpp;C:\dev\Netvox\Netvox\Netvox\x64\Debug\Window.obj
-C:\dev\Netvox\Netvox\Netvox\src\Renderer\Buffers\VBO.cpp;C:\dev\Netvox\Netvox\Netvox\x64\Debug\VBO.obj
-C:\dev\Netvox\Netvox\Netvox\src\Renderer\Buffers\VAO.cpp;C:\dev\Netvox\Netvox\Netvox\x64\Debug\VAO.obj
+C:\dev\Netvox\Netvox\src\Renderer\new_VBO.cpp;C:\dev\Netvox\Netvox\x64\Debug\new_VBO.obj
+C:\dev\Netvox\Netvox\src\Renderer\EBO.cpp;C:\dev\Netvox\Netvox\x64\Debug\EBO.obj
+C:\dev\Netvox\Netvox\main.cpp;C:\dev\Netvox\Netvox\x64\Debug\main.obj
+C:\dev\Netvox\Netvox\src\Renderer\Shader.cpp;C:\dev\Netvox\Netvox\x64\Debug\Shader.obj
+C:\dev\Netvox\Netvox\src\Window.cpp;C:\dev\Netvox\Netvox\x64\Debug\Window.obj
+C:\dev\Netvox\Netvox\src\Renderer\VBO.cpp;C:\dev\Netvox\Netvox\x64\Debug\VBO.obj
+C:\dev\Netvox\Netvox\src\Renderer\VAO.cpp;C:\dev\Netvox\Netvox\x64\Debug\VAO.obj

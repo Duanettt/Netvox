@@ -4,27 +4,15 @@
 #include <iostream>
 
 #include "src/Window.h"
-#include "src/Renderer/Buffers/VBO.h"
-#include "src/Renderer/Buffers/EBO.h"
-#include "src/Renderer/Buffers/VAO.h"
+#include "src/Renderer/new_VBO.h"
+#include "src/Renderer/EBO.h"
+#include "src/Renderer/VAO.h"
 #include "src/Renderer/Shader.h"
 
 // settings
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
-const char* vertexShaderSource = "#version 330 core\n"
-"layout (location = 0) in vec3 aPos;\n"
-"void main()\n"
-"{\n"
-"   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
-"}\0";
-const char* fragmentShaderSource = "#version 330 core\n"
-"out vec4 FragColor;\n"
-"void main()\n"
-"{\n"
-"   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
-"}\n\0";
 
 int main()
 {
@@ -39,17 +27,12 @@ int main()
     Window window(SCR_HEIGHT, SCR_WIDTH);
 
     glfwMakeContextCurrent(window.m_window);
+    glfwSetFramebufferSizeCallback(window.m_window, framebuffer_size_callback);
 
     // glfw: initialize and configure
     // ------------------------------
 
-
-    
-
-
     //window.CreateWindow();
-
-   
 
 
    // glad: load all OpenGL function pointers
@@ -61,24 +44,46 @@ int main()
     }
 
     Shader shader("res/shaders/vertexShader.vert","res/shaders/fragmentShader.frag");
-     float vertices[] = {
-     0.5f,  0.5f, 0.0f,  // top right
-     0.5f, -0.5f, 0.0f,  // bottom right
-    -0.5f, -0.5f, 0.0f,  // bottom left
-    -0.5f,  0.5f, 0.0f   // top left 
+    float vertices[] = {
+        // positions         // colors
+         0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,  // bottom right
+        -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  // bottom left
+         0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f   // top 
     };
-    unsigned int indices[] = {  // note that we start from 0!
-        0, 1, 3,  // first Triangle
-        1, 2, 3   // second Triangle
-    };
+
+    //unsigned int VBO, VAO;
+    //glGenVertexArrays(1, &VAO);
+    //glGenBuffers(1, &VBO);
+    //// bind the Vertex Array Object first, then bind and set vertex buffer(s), and then configure vertex attributes(s).
+    //glBindVertexArray(VAO);
+
+    //glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    //glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
+    //// position attribute
+    //glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+    //glEnableVertexAttribArray(0);
+    //// color attribute
+    //glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+    //glEnableVertexAttribArray(1);
+
+    VAO vao;
+    VBO vbo;
+
+    vao.GenVertexArray();
+    vbo.GenerateBuffer();
+
+    vbo.Setup(vertices, sizeof(vertices), GL_STATIC_DRAW);
+
+    vao.LinkAttribute(vbo, 0, 3, GL_FLOAT, 6 * sizeof(float), (void*)0);
+    vao.LinkAttribute(vbo, 1, 3, GL_FLOAT, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+
+
+
 
     // Instantiate our VAO, VBO and EBO with this data.
-    VAO vao;
-    VBO vbo(vertices, sizeof(vertices));
-    EBO ebo(indices, sizeof(indices));
-
-    // We create our VAO and link attributes from the vbo to the VAO.
-    vao.LinkAttribute(vbo, 0, 3, GL_FLOAT, sizeof(float) * 3, (void*)0);
+    
+    // Generate our array and buffers for our data.
 
     // render loop
     // -----------
@@ -93,9 +98,14 @@ int main()
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
+        // render the triangle
+        //shader.use();
+        //glBindVertexArray(VAO);
+        //glDrawArrays(GL_TRIANGLES, 0, 3);
+
+        shader.use();
         vao.Bind();
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-        vao.Unbind();
+        glDrawArrays(GL_TRIANGLES, 0, 3);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------

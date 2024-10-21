@@ -127,19 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Renderer\Buffers\EBO.h" />
+    <ClInclude Include="src\Renderer\new_VBO.h" />
+    <ClInclude Include="src\Renderer\EBO.h" />
     <ClInclude Include="src\Renderer\Shader.h" />
     <ClInclude Include="src\Window.h" />
-    <ClInclude Include="src\Renderer\Buffers\VBO.h" />
-    <ClInclude Include="src\Renderer\Buffers\VAO.h" />
+    <ClInclude Include="src\Renderer\VBO.h" />
+    <ClInclude Include="src\Renderer\VAO.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Renderer\Buffers\EBO.cpp" />
+    <ClCompile Include="src\Renderer\new_VBO.cpp" />
+    <ClCompile Include="src\Renderer\EBO.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\Renderer\Shader.cpp" />
     <ClCompile Include="src\Window.cpp" />
-    <ClCompile Include="src\Renderer\Buffers\VBO.cpp" />
-    <ClCompile Include="src\Renderer\Buffers\VAO.cpp" />
+    <ClCompile Include="src\Renderer\VBO.cpp" />
+    <ClCompile Include="src\Renderer\VAO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shaders\fragmentShader.frag" />
